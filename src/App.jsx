@@ -8,8 +8,8 @@ import Service from "./pages/Service";
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/Portfolio_Andi" element={<Home />} />
+      <Routes basename="/Portfolio_Andi">
+        <Route path="/" element={<Home />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/service" element={<Service />} />
